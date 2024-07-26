@@ -1,3 +1,3 @@
-#Todo App
+Todo App
 
 made using React.js
