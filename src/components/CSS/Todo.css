@@ -1,0 +1,128 @@
+.todo{
+    width: 550px;
+    min-height: 680px;
+    border-radius: 20px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 44px;
+    padding-bottom: 30px;
+}
+
+.todo-header{
+    margin-top: 84px;
+    color: #002765;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 34px;
+}
+
+.todo-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.todo-input{
+    border-radius: 50px;
+    background: #edeef0;
+    border: none;
+    outline: none;
+    width: 80vw;
+    height: 80px;
+    padding-left: 35px;
+    font-size: 20px;
+}
+
+.todo-add-btn{
+    border-radius: 50px;
+    background:#ff6739;
+    width: 187px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.todo-list{
+    height: 370px;
+    overflow-y: scroll;
+    margin-top: 20px;
+}
+
+.todo-list::-webkit-scrollbar{
+    display: none;
+}
+
+@media (max-width:600px) {
+    .todo{
+        height: 100vh;
+        width: 100vw;
+        min-height: 680px;
+        border-radius: 0px;
+        background:linear-gradient(135deg,#77d4ff,#0f5ddb);
+        display: flex;
+        flex-direction: column;
+        padding: 0px 44px;
+        padding-bottom: 30px;
+    }
+    .todo-list{
+        height: 560px;
+        overflow-y: scroll;
+        margin-top: 20px;
+    }
+    .todo-input{
+        border-radius: 50px;
+        background: #edeef0;
+        border: none;
+        outline: none;
+        width: 500px;
+        height: 80px;
+        padding-left: 35px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width:370px){
+    .todo-input{
+        border-radius: 50px;
+        background: #edeef0;
+        border: none;
+        outline: none;
+        width: 255px;
+        height: 80px;
+        padding-left: 25px;
+        font-size: 20px;
+    }
+}
+
+@media (max-height:700px){
+    .todo{
+        height: 100vh;
+        width: 100vw;
+        min-height: 400px;
+    }
+    .todo-header{
+        margin-top:30px;
+        color: #002765;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 34px;
+    }
+    .todo-add{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .todo-list{
+        overflow-y: scroll;
+        margin-top: 20px;
+    }
+}
