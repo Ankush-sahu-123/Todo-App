@@ -29,7 +29,7 @@
     background: #edeef0;
     border: none;
     outline: none;
-    width: 80vw;
+    width: 45vw;
     height: 80px;
     padding-left: 35px;
     font-size: 20px;
@@ -38,7 +38,7 @@
 .todo-add-btn{
     border-radius: 50px;
     background:#ff6739;
-    width: 187px;
+    width: 200px;
     height: 80px;
     display: flex;
     justify-content: center;
